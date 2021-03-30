@@ -1,0 +1,58 @@
+:root{
+    --rows: repeat(16, 1fr);
+    --columns: repeat(16, 1fr);
+}
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    border-top: 3px solid rgb(4, 130, 146);
+}
+
+h1{
+position: absolute;
+left: 560px;
+top: 10px;
+color: rgb(38, 39, 39);
+}
+
+.btn{
+    position: absolute;
+    top: 60px;
+    left: 640px;
+    background-color: rgb(4, 130, 146);
+    padding: 7px;
+    color: azure;
+    border: 1px solid azure;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    transform: scale(0.9);
+    background-color: rgb(5, 142, 145);
+    color: azure;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: var(--columns);
+    grid-template-rows: var(--rows);
+    position: absolute;
+    top: 110px;
+    left: 450px;
+    border: 1.4px solid rgb(38, 39, 39);;
+    width: 483px;
+    max-width: 483px;
+    height: 483px;
+    max-height: 483px;
+}
+
+.items{
+    border: 1px solid rgb(63, 66, 66);;
+}
+
