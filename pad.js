@@ -1,11 +1,11 @@
 function changeSize() {
     let size;
     while (true) {
-        size = parseInt(prompt("enter a new size in the range 1-100"), 10);
-        if (size >= 1 && size <= 100) {
+        size = parseInt(prompt("enter a new size in the range 1-70"), 10);
+        if (size >= 1 && size <= 70) {
             break;
-        } if (size < 1 || size > 100) {
-            alert("enter in the range 1-100");
+        } if (size < 1 || size > 70) {
+            alert("enter in the range 1-70");
             continue;
         } if (isNaN(size)) {
             alert("Sorry, the value is NOT valid.")
