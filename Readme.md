@@ -1,1 +1,0 @@
-View the page here --> https://adityabarshilia.github.io/gridsketchpad/
